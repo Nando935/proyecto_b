@@ -7,7 +7,7 @@ while (have_posts()) : the_post(); ?>
 <div class="master_container">
 
 <div class="background-header center_elements">
-    <?php echo get_the_post_thumbnail( $page->ID, 'medium_large'); ?>
+    <?php echo get_the_post_thumbnail( $page->ID, 'loguito'); ?>
 </div>
 
 <?php
@@ -31,7 +31,7 @@ while (have_posts()) : the_post(); ?>
         
         <?php
             echo '<div class="textos center_elements">' .$content.'</div>';
-            echo get_the_post_thumbnail( $page->ID, 'medium_large');
+            echo get_the_post_thumbnail( $page->ID, 'banner_img');
             $i++;
             echo '</div>';
          
